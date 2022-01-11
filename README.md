@@ -3,7 +3,7 @@ Machine Learning model using Python to perform sentiment analysis on Twitter dat
 
 **Dataset:**
 
-The dataset used is a Sentiment140 dataset containing 1,600,000 tweets. I used a sample of 80,000 
+The dataset used is a Sentiment140 dataset (https://www.kaggle.com/kazanova/sentiment140) containing 1,600,000 tweets. I used a sample of 80,000 
 entries and their targets. Targets used in the dataset are 0 for Negative tweet and 4 for Positive tweet.
 The dataset is preprocessed to drop the other columns, namely, ids, date, flag, and user, which weren’t 
 required for sentiment analysis and binarized the dataset into 0 for negative tweets and 1 for positive 
